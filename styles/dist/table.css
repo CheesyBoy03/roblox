@@ -18,8 +18,9 @@
 }
 @media screen and (max-width: 1000px) {
   .table-container .table-wrapper {
-    width: 100%;
+    width: 98%;
     padding: 20px 0;
+    margin-bottom: 50px;
   }
 }
 .table-container .table-wrapper h2 {
@@ -40,10 +41,15 @@
 }
 @media screen and (max-width: 1000px) {
   .table-container .table-wrapper table {
-    font-size: 0.84em;
+    font-size: 0.8em;
   }
   .table-container .table-wrapper table tr th {
-    padding: 7px 10px;
+    padding: 5px 7px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .table-container .table-wrapper table {
+    font-size: 0.6em;
   }
 }
 .table-container .table-wrapper table .table-header {
