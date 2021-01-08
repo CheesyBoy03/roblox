@@ -18,14 +18,8 @@
 }
 @media screen and (max-width: 1000px) {
   .table-container .table-wrapper {
-    width: 95%;
+    width: 100%;
     padding: 20px 0;
-  }
-  .table-container .table-wrapper table {
-    font-size: 0.6em;
-  }
-  .table-container .table-wrapper table tr th {
-    padding: 7px 10px;
   }
 }
 .table-container .table-wrapper h2 {
@@ -38,6 +32,19 @@
   border-radius: 20px;
   border: 1px solid #0058AD;
   border-spacing: 0;
+}
+@media screen and (max-width: 1400px) {
+  .table-container .table-wrapper table {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .table-container .table-wrapper table {
+    font-size: 0.84em;
+  }
+  .table-container .table-wrapper table tr th {
+    padding: 7px 10px;
+  }
 }
 .table-container .table-wrapper table .table-header {
   background-color: #0058AD;
@@ -101,4 +108,13 @@
 }
 .table-container .table-wrapper table tr .renouncement th:last-child {
   border-radius: 0 0 20px;
+}
+.table-container .table-wrapper .pages-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 0;
+}
+.table-container .table-wrapper .pages-container .num-of-page {
+  margin: 0 10px;
 }
