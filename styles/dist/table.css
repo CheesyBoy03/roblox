@@ -5,7 +5,7 @@
 @media screen and (max-width: 1000px) {
   .table-container {
     width: 100%;
-    min-width: 700px;
+    min-width: 200px;
   }
 }
 .table-container .table-wrapper {
@@ -15,6 +15,18 @@
   text-align: center;
   box-shadow: 10px 20px 60px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
+}
+@media screen and (max-width: 1000px) {
+  .table-container .table-wrapper {
+    width: 95%;
+    padding: 20px 0;
+  }
+  .table-container .table-wrapper table {
+    font-size: 0.6em;
+  }
+  .table-container .table-wrapper table tr th {
+    padding: 7px 10px;
+  }
 }
 .table-container .table-wrapper h2 {
   margin-bottom: 20px;
