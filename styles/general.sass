@@ -1,0 +1,20 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Gilroy', sans-serif
+
+a
+    text-decoration: none
+
+
+$main-color: #0058AD
+
+@mixin columnContent()
+    display: flex
+    flex-direction: column
+
+body
+    display: flex
+    @media screen and ( max-width: 1000px )
+        flex-direction: column
