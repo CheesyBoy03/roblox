@@ -31,11 +31,11 @@ body {
 }
 @media screen and (max-width: 1000px) {
   .menu-container {
-    height: auto;
+    min-height: 100px;
     width: 100%;
   }
   .menu-container nav {
-    margin: auto;
+    margin: 0 auto;
     padding-left: 0;
   }
 }
@@ -50,6 +50,11 @@ body {
   width: 300px;
   margin: 30px auto 80px;
   padding: 20px 0 40px;
+}
+@media screen and (max-width: 1000px) {
+  .menu-container .info-block {
+    margin-bottom: 20px;
+  }
 }
 .menu-container .info-block .about-user {
   width: 90%;
@@ -122,8 +127,9 @@ body {
 @media screen and (max-width: 1000px) {
   .menu-container .logout {
     margin-top: 0;
+    margin: 0 auto;
     font-size: 1.2em;
     width: 100px;
-    padding-left: 50px;
+    padding-left: 20px;
   }
 }

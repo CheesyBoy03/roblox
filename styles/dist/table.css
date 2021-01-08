@@ -4,6 +4,11 @@
 }
 @media screen and (max-width: 1000px) {
   .table-container {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .table-container {
     width: 100%;
     min-width: 200px;
   }
