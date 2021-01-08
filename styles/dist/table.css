@@ -80,11 +80,7 @@
     padding: 10px 15px;
   }
 }
-.table-container .table-wrapper table th:first-child {
-  border-top-left-radius: 10px;
-}
 .table-container .table-wrapper table th:last-child {
-  border-top-right-radius: 10px;
   border-right: none;
 }
 .table-container .table-wrapper table td {
